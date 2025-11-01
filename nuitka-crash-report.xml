@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf8'?>
+<nuitka-compilation-report nuitka_version="2.8.4" nuitka_commercial_version="not installed" mode="accelerated" completion="error exit message (1)" exit_message="Failed unexpectedly in Scons C backend compilation.">
+  <scons_environment />
+  <scons_error_reports>
+    <scons_error_report>
+      <command>"C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "__helpers.o" -c -std=c11 -flto=6 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_DISABLE_CONSOLE_WINDOW -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\wangcac\AppData\Local\Programs\Python\Python312\include -I. -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\static_src -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\libbacktrace "__helpers.c"</command>
+      <stderr>
+In file included from __helpers.c:4:
+D:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "__loader.o" -c -std=c11 -flto=6 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_DISABLE_CONSOLE_WINDOW -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\wangcac\AppData\Local\Programs\Python\Python312\include -I. -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\static_src -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\libbacktrace "__loader.c"</command>
+      <stderr>
+In file included from __loader.c:4:
+D:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "static_src\MainProgram.o" -c -std=c11 -flto=6 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_DISABLE_CONSOLE_WINDOW -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\wangcac\AppData\Local\Programs\Python\Python312\include -I. -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\static_src -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\libbacktrace "static_src\MainProgram.c"</command>
+      <stderr>
+static_src\MainProgram.c:16:10: fatal error: windows.h: No such file or directory
+   16 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "module.__main__.o" -c -std=c11 -flto=6 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_DISABLE_CONSOLE_WINDOW -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\wangcac\AppData\Local\Programs\Python\Python312\include -I. -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\static_src -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\libbacktrace "module.__main__.c"</command>
+      <stderr>
+In file included from module.__main__.c:19:
+D:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "__constants.o" -c -std=c11 -flto=6 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_DISABLE_CONSOLE_WINDOW -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\wangcac\AppData\Local\Programs\Python\Python312\include -I. -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\static_src -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\libbacktrace "__constants.c"</command>
+      <stderr>
+In file included from __constants.c:2:
+D:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+    <scons_error_report>
+      <command>"C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\ccache.exe" "C:\Users\wangcac\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe" -o "static_src\CompiledFunctionType.o" -c -std=c11 -flto=6 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_DISABLE_CONSOLE_WINDOW -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_FILE_REFERENCE_ORIGINAL_MODE -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\zlib -IC:\Users\wangcac\AppData\Local\Programs\Python\Python312\include -I. -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\static_src -ID:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\inline_copy\libbacktrace "static_src\CompiledFunctionType.c"</command>
+      <stderr>
+In file included from static_src\CompiledFunctionType.c:8:
+D:\workpath2\Python\Projects\WiFiViewer\venv\Lib\site-packages\nuitka\build\include/nuitka/prelude.h:15:10: fatal error: windows.h: No such file or directory
+   15 | #include &lt;windows.h&gt;
+      |          ^~~~~~~~~~~
+compilation terminated.
+</stderr>
+    </scons_error_report>
+  </scons_error_reports>
+  <module name="__main__" kind="PythonMainModule" usage="root_module" reason="Root module" source_path="${cwd}\main.py">
+    <optimization-time pass="1" time="0.03" micro_passes="5" max_branch_merge="3" merged_total="15" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="3" merged_total="3" />
+    <module_usages>
+      <module_usage name="site" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="_virtualenv" finding="absolute" line="1" />
+      <module_usage name="sys" finding="absolute" line="11" />
+      <module_usage name="PySide6" finding="absolute" line="13" />
+      <module_usage name="PySide6.QtCore" finding="excluded" line="13" exclusion_reason="Extension modules cannot be inspected." />
+      <module_usage name="PySide6.QtWidgets" finding="excluded" line="13" exclusion_reason="Extension modules cannot be inspected." />
+      <module_usage name="PySide6.QtGui" finding="excluded" line="13" exclusion_reason="Extension modules cannot be inspected." />
+      <module_usage name="UI.View.MainWindow" finding="absolute" line="15" />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="41263104" />
+    <memory_usage name="before_c_code_generation" value="42332160" />
+    <memory_usage name="before_running_scons" value="43524096" />
+  </performance>
+  <data_composer blob_size="1445" total="130">
+    <module_data filename="__bytecode.const" blob_name=".bytecode" blob_size="3" input_size="0" />
+    <module_data filename="__constants.const" blob_name="" blob_size="989" input_size="2369" />
+    <module_data filename="module.__main__.const" blob_name="__main__" blob_size="413" input_size="628" />
+  </data_composer>
+  <command_line>
+    <option value="--mingw64" />
+    <option value="-onefile" />
+    <option value="--windows-console-mode=disable" />
+    <option value="--enable-plugin=pyside6" />
+    <option value="--follow-import-to=need" />
+    <option value="--output-dir=output" />
+    <option value="main.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="pyside6" user_enabled="yes" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.prefix}\Scripts\python.exe" python_flavor="CPython Official" python_version="3.12.3" os_name="Windows" os_release="10" arch_name="x86_64" filesystem_encoding="utf-8">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="${sys.real_prefix}\DLLs" />
+      <path value="${sys.real_prefix}\Lib" />
+      <path value="${sys.real_prefix}" />
+      <path value="${sys.prefix}" />
+      <path value="${sys.prefix}\Lib\site-packages" />
+    </search_path>
+  </python>
+  <output run_filename="${cwd}\output\main.cmd" />
+</nuitka-compilation-report>
